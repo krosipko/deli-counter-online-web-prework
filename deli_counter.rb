@@ -1,7 +1,7 @@
 def line(people) 
   katz_deli = []
   katz_deli << people
-  new_array = []
+  new_array = ["The line is currently: "]
   if katz_deli.size > 0 
     
   else
