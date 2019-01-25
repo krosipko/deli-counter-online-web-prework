@@ -1,5 +1,6 @@
 katz_deli = []
 def line(katz_deli) 
+  new_deli_lol = []
   if katz_deli.size > 0 
     
   else 
