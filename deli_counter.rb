@@ -1,6 +1,7 @@
 def line(people) 
   katz_deli = []
   katz_deli << people
+  new_array = []
   if katz_deli.size > 0 
     
   else
