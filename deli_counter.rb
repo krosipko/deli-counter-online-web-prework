@@ -7,7 +7,7 @@ def line(people)
     #  place = katz_deli[index]
    #   new_array << "#{index}. #{place} "
    # end
-   # new_array
+   new_array
   else
     puts "The line is currently empty."
   end 
