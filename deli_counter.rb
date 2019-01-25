@@ -5,7 +5,7 @@ def line(katz_deli)
     katz_deli.each_with_index |place, index|
     place = katz_deli[index]
     new_deli_lol << "#{index}. #{place}"
-    
+    puts new_deli_lol
   else 
     puts "The line is currently empty."
   end
