@@ -4,7 +4,7 @@ def line(katz_deli)
   if katz_deli.size > 0 
     katz_deli.each_with_index do |place, index|
       place = katz_deli[index]
-      new_deli_lol << "#{index}. #{place}"
+      new_deli_lol << "#{index + 1}. #{place}"
     end
     puts new_deli_lol
   else 
