@@ -7,7 +7,7 @@ def line(katz_deli)
       new_deli_lol << index + 1
       new_deli_lol << ". #{name}"
     end
-    puts new_deli_lol
+    puts new_deli_lol.chomp()
   else 
     puts "The line is currently empty."
   end
