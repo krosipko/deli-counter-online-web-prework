@@ -8,7 +8,7 @@ def line(katz_deli)
       new_deli_lol << ". #{name}"
       testy = new_deli_lol
     end
-    puts testy.chomp("[]\"")
+    puts new_deli_lol
   else 
     puts "The line is currently empty."
   end
