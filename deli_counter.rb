@@ -6,9 +6,9 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
       new_deli_lol << index + 1
       new_deli_lol << ". #{name}"
-      test = new_deli_lol
+      testy = new_deli_lol
     end
-    puts test.chomp("[]\"")
+    puts testy.chomp("[]\"")
   else 
     puts "The line is currently empty."
   end
