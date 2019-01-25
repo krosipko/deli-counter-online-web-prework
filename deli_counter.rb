@@ -1,5 +1,10 @@
 def line(people) 
   katz_deli = [people]
+  if katz_deli.size > 0 
+    
+  else 
+    
+  end
 end
 
 def take_a_number
